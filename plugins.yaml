@@ -92,7 +92,6 @@ data:
         - lifecycle
         - override
         - pony
-        - shrug
         - size
         - skip
         - trigger
