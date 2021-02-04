@@ -14,7 +14,7 @@ presubmits:
     - agent: jenkins
       name: demo
 jenkinses:
-  label_selector: lighthouse=jenkins
+  label_selector: "lighthouse=jenkins"
 prowjob_namespace: default
 push_gateway:
   serve_metrics: false
