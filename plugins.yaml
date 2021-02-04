@@ -108,10 +108,10 @@ requiresig: {}
 sigmention: {}
 size:
   l: 0
-  m: 0
-  s: 0
+  m: 10
+  s: 20
   xl: 40
-  xxl: 0
+  xxl: 100
 triggers: []
 # Example triggers configuration:
 # - repos:
