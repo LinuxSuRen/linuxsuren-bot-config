@@ -14,6 +14,9 @@ config_updater:
     plugins.yaml:
       name: plugins
       namespace: default
+    config.yaml:
+      name: config
+      namespace: default
 external_plugins: {}
 heart: {}
 label:
