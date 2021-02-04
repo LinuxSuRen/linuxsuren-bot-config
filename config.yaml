@@ -1,0 +1,46 @@
+branch-protection:
+  orgs: {}
+  protect-tested-repos: true
+github:
+  LinkURL: null
+owners_dir_excludes:
+  default: null
+  repos: null
+plank: {}
+pod_namespace: default
+postsubmits: {}
+presubmits:
+  linuxsuren-bot/demo:
+    - agent: jenkins
+      name: demo
+jenkinses:
+  label_selector: lighthouse=jenkins
+prowjob_namespace: default
+push_gateway:
+  serve_metrics: false
+tide:
+  pr_status_base_url: http://keeper.surenpi.com/pr
+  squash_label: tide/squash
+  context_options:
+    from-branch-protection: true
+    required-if-present-contexts: []
+    skip-unknown-contexts: false
+  merge_method:
+    linuxsuren: squash
+    jenkins-zh: squash
+    jenkins-infra: squash
+    jenkinsci: squash
+  queries:
+    - orgs:
+        - linuxsuren
+        - jenkinsci
+        - jenkins-zh
+        - jenkins-infra
+      labels:
+        - approved
+        - lgtm
+      missingLabels:
+        - do-not-merge
+        - do-not-merge/hold
+        - do-not-merge/work-in-progress
+        - needs-ok-to-test
