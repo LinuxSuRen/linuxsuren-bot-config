@@ -17,7 +17,7 @@ config_updater:
     config.yaml:
       name: config
       namespace: default
-    label-config.yaml:
+    labels.yaml:
       name: label-config
       namespace: default
 external_plugins: {}
