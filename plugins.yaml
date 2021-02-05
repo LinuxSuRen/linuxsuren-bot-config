@@ -107,9 +107,10 @@ plugins:
 requiresig: {}
 sigmention: {}
 size:
-  s: 10
-  l: 30
-  m: 50
+  xs: 10
+  s: 20
+  m: 30
+  l: 50
   xl: 70
   xxl: 100
 triggers: []
