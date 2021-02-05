@@ -36,10 +36,10 @@ default:
       target: both
       prowPlugin: label
       addedBy: anyone
-    - color: e11d21
+    - color: e11d22
       description: Categorizes PR as related to a bug.
       name: kind/bugfix
-      target: both
+      target: prs
       prowPlugin: label
       addedBy: anyone
     - color: c7def8
