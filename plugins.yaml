@@ -112,14 +112,12 @@ sigmention: {}
 size:
   xs: 10
   s: 20
-  m: 30
-  l: 50
-  xl: 70
-  xxl: 100
+  m: 40
+  l: 80
+  xl: 160
+  xxl: 320
 triggers: []
-# Example triggers configuration:
-# - repos:
-#     - org/repo
-#   trusted_org: org
 welcome:
-- message_template: Welcome
+  - message_template: "欢迎 @{{.AuthorLogin}} 加入，这是您首次参与 Jenkins 中文社区的开源贡献，让我们共同见证开源社区的成长！"
+    repos:
+    - jenkins-zh/jenkins-zh
