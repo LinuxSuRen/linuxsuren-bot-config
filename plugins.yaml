@@ -121,3 +121,6 @@ welcome:
   - message_template: "欢迎 @{{.AuthorLogin}} 加入，这是您首次参与 Jenkins 中文社区的开源贡献，让我们共同见证开源社区的成长！"
     repos:
     - jenkins-zh/jenkins-zh
+  - message_template: "欢迎 @{{.AuthorLogin}} 和我们一起总结、完善开源最佳实践！"
+    repos:
+    - LinuxSuRen/open-source-best-practice
