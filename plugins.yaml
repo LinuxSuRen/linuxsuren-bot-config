@@ -6,7 +6,7 @@ approve:
   - jenkins-zh
   - jenkins-infra
   - devops-ws
-  require_self_approval: true
+  require_self_approval: false
 cat: {}
 cherry_pick_unapproved: {}
 config_updater:
