@@ -107,6 +107,25 @@ plugins:
     - wip
     - yuks
     - welcome
+  devops-ws:
+    - approve
+    - assign
+    - cat
+    - dog
+    - help
+    - hold
+    - label
+    - lgtm
+    - lifecycle
+    - override
+    - pony
+    - shrug
+    - size
+    - skip
+    - trigger
+    - wip
+    - yuks
+    - welcome
 requiresig: {}
 sigmention: {}
 size:
