@@ -29,12 +29,14 @@ tide:
     jenkins-zh: squash
     jenkins-infra: squash
     jenkinsci: squash
+    devops-ws: squash
   queries:
     - orgs:
         - linuxsuren
         - jenkinsci
         - jenkins-zh
         - jenkins-infra
+        - devops-ws
       labels:
         - approved
         - lgtm
