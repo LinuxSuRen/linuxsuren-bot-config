@@ -28,6 +28,9 @@ label:
     - article
     - translation
     - tutorial
+    - tide/merge-method-rebase
+    - tide/merge-method-merge
+    - tide/merge-blocker
 owners: {}
 plugins:
   jenkins-infra:
