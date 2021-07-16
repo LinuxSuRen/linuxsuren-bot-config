@@ -31,6 +31,7 @@ label:
     - bug
     - bugfix
     - chore
+    - ospp-2021
     - tide/merge-method-rebase
     - tide/merge-method-merge
     - tide/merge-blocker
